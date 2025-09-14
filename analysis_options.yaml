@@ -1,0 +1,68 @@
+# This file configures the static analysis results for your project (errors,
+# warnings, and lints).
+#
+# This enables the lint rules recommended by the Flutter team.
+# See https://flutter.dev/docs/development/tools/linter#recommended-lints
+#
+# To see the full list of supported lint rules and their documentation,
+# see https://dart-lang.github.io/linter/lints/index.html.
+#
+# For information on disabling a lint rule for a specific line of code,
+# see https://dart.dev/guides/language/analysis-options#excluding-code-from-analysis.
+
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  # The lint rules are organized into categories (style, errors, pub).
+  # You can disable all rules from a category by disabling the category itself.
+  # For example, to disable all style-related rules, add `style: false` below.
+  #
+  # Disabling rules this way is not recommended, however. A better way to
+  # handle unwanted rules is to disable them individually by adding them to
+  # the `rules` list below.
+  #
+  # Rules can be enabled or disabled by adding the rule name to the `rules`
+  # list. For example, to disable the `avoid_print` rule, add
+  # `avoid_print: false` to the list.
+  #
+  # For a full list of available rules, see
+  # https://dart-lang.github.io/linter/lints/index.html.
+  rules:
+    # TODO: Add any custom lint rules here.
+    # prefer_single_quotes: true
+    # always_specify_types: true
+    # avoid_redundant_argument_values: true
+    # avoid_returning_null_for_void: true
+    # avoid_unused_constructor_parameters: true
+    # prefer_const_constructors: true
+    # prefer_const_declarations: true
+    # prefer_final_fields: true
+    # sort_child_properties_last: true
+    # use_key_in_widget_constructors: true
+    # require_trailing_commas: true
+    # unnecessary_parenthesis: true
+    # package_prefixed_library_names: true
+    # directives_ordering: true
+    # lines_longer_than_80_chars: false # Adjust as needed
+    # no_leading_underscores_for_local_identifiers: true
+    # camel_case_types: true
+    # file_names: true
+
+# analyzer:
+#   exclude:
+#     - 'lib/generated_plugin_registrant.dart'
+#   errors:
+#     # treat missing required parameters as a warning (not a hint)
+#     missing_required_param: warning
+#     # treat missing returns as a warning (not a hint)
+#     missing_return: warning
+#     # allow having TODOs in the code
+#     todo: ignore
+#     # allow self-reference to a class's members (e.g. `this.member`)
+#     unnecessary_this: ignore
+#     # allow using a late variable before it is initialized
+#     late_variable_might_be_null: ignore
+#   language:
+#     # enable the latest language features
+#     strict-raw-types: true
+#     strict-inference: true

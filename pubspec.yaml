@@ -1,0 +1,50 @@
+name: ace_the_apti
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.14.0
+  firebase_storage: ^11.6.0
+  google_sign_in: ^6.1.5
+
+  # State Management
+  hooks_riverpod: ^2.4.9
+  flutter_hooks: ^0.20.3
+
+  # Navigation
+  go_router: ^12.1.1
+
+  # UI & UX
+  google_fonts: ^6.1.0
+  cupertino_icons: ^1.0.2
+
+  # Utility
+  image_picker: ^1.0.4
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  mockito: ^5.4.2
+  build_runner: ^2.4.6
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg

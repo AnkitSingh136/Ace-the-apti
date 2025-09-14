@@ -1,0 +1,78 @@
+{
+  "questions": [
+    {
+      "category": "Quantitative",
+      "difficulty": "easy",
+      "questionText": "If a car travels at 60 km/h, how far will it travel in 2.5 hours?",
+      "options": ["120 km", "150 km", "180 km", "200 km"],
+      "correctAnswer": "150 km",
+      "explanation": "Distance = Speed × Time. 60 km/h × 2.5 h = 150 km."
+    },
+    {
+      "category": "Quantitative",
+      "difficulty": "medium",
+      "questionText": "A shopkeeper sells a product for $150 at a 25% profit. What was the cost price?",
+      "options": ["$100", "$112.50", "$120", "$125"],
+      "correctAnswer": "$120",
+      "explanation": "Selling Price = Cost Price × (1 + Profit Percentage). $150 = CP × 1.25. CP = $150 / 1.25 = $120."
+    },
+    {
+        "category": "Quantitative",
+        "difficulty": "hard",
+        "questionText": "The compound interest on $10,000 for 2 years at 10% per annum is:",
+        "options": ["$2000", "$2100", "$2200", "$2310"],
+        "correctAnswer": "$2100",
+        "explanation": "A = P(1 + r/n)^(nt). A = 10000(1.1)^2 = 12100. Interest = 12100 - 10000 = $2100."
+    },
+    {
+      "category": "Logical Reasoning",
+      "difficulty": "easy",
+      "questionText": "Which number should come next in the series? 1, 4, 9, 16, ___",
+      "options": ["20", "25", "30", "36"],
+      "correctAnswer": "25",
+      "explanation": "The series consists of squares of natural numbers (1^2, 2^2, 3^2, 4^2, ...)."
+    },
+    {
+        "category": "Logical Reasoning",
+        "difficulty": "medium",
+        "questionText": "If 'CAT' is coded as '3120', what is the code for 'DOG'?",
+        "options": ["4157", "4158", "4159", "4160"],
+        "correctAnswer": "4157",
+        "explanation": "The code is the concatenation of the alphabetical position of each letter (C=3, A=1, T=20)."
+    },
+    {
+      "category": "Analogy",
+      "difficulty": "easy",
+      "questionText": "Doctor is to Hospital as Teacher is to ___.",
+      "options": ["Book", "Student", "School", "Desk"],
+      "correctAnswer": "School",
+      "explanation": "A doctor works in a hospital, and a teacher works in a school."
+    }
+  ],
+  "testSeries": [
+    {
+      "category": "Mixed",
+      "difficulty": "easy",
+      "questionText": "What is 5! (5 factorial)?",
+      "options": ["100", "120", "140", "160"],
+      "correctAnswer": "120",
+      "explanation": "5! = 5 × 4 × 3 × 2 × 1 = 120."
+    },
+    {
+      "category": "Mixed",
+      "difficulty": "medium",
+      "questionText": "If a triangle has angles 45, 45, and 90 degrees, what type of triangle is it?",
+      "options": ["Equilateral", "Scalene", "Isosceles Right", "Obtuse"],
+      "correctAnswer": "Isosceles Right",
+      "explanation": "It's a right triangle because of the 90-degree angle, and isosceles because two angles (and therefore two sides) are equal."
+    },
+    {
+      "category": "Mixed",
+      "difficulty": "hard",
+      "questionText": "A train 100m long is running at a speed of 30 km/h. Find the time it takes to pass a man standing near the railway line.",
+      "options": ["10 seconds", "12 seconds", "14 seconds", "16 seconds"],
+      "correctAnswer": "12 seconds",
+      "explanation": "Speed = 30 km/h = 30 * (5/18) m/s = 25/3 m/s. Time = Distance / Speed = 100 / (25/3) = 12 seconds."
+    }
+  ]
+}
